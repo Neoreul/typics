@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121"
+    tools:context="com.example.se2h.typics.Account">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/btn_backToEdit"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/icon_back"
+        android:background="@drawable/circle_icon"
+        android:padding="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:id="@+id/txt_account"
+        android:textColor="#7CFC00"
+        android:textSize="14dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:id="@+id/btn_signoutAccount"
+        android:text="@string/logout"
+        android:layout_marginBottom="10dp"
+        android:textColor="#fff"
+        android:padding="5dp"
+        android:background="@drawable/main_button"/>
+
+</FrameLayout>

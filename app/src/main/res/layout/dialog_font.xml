@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/dialog_font"
+    android:background="#000">
+
+    <RelativeLayout
+        android:id="@+id/relativeTextViewFont"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="10dp"
+        android:background="#000">
+        <TextView
+            android:id="@+id/textFontView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:textColor="#fff"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/listViewFont"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/relativeTextViewFont"
+        android:scrollbarSize="1dp">
+
+        <LinearLayout
+            android:id="@+id/llScroll"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#212121">
+
+        </LinearLayout>
+        </ScrollView>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="#000">
+        <Button
+            android:id="@+id/btnFontCancel"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="Cancel"
+            android:textColor="@color/colorPrimary"
+            android:background="#000"/>
+        <Button
+            android:id="@+id/btnFontDone"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="Done"
+            android:textColor="@color/colorPrimary"
+            android:background="#000"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -58,6 +58,7 @@
     <string name="about_us">About us</string>
     <string name="account">Account</string>
     <string name="back">Back</string>
+    <string name="same_text">Your text here</string>
 
     <array name="navigation_drawer">
         <item>@string/home</item>

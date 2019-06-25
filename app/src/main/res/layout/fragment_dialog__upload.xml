@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.se2h.typics.Dialog_Upload"
+    android:layout_margin="10dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/et_name"
+            android:hint="@string/upload_hint"
+            android:background="@drawable/border_edit_text"
+            android:layout_margin="7dp"
+            android:padding="5dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/upload_omit"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:id="@+id/btn_cancelUpload"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_hor"
+                android:textColor="#ffffff"
+                android:padding="5dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:id="@+id/btn_submitUpload"
+                android:textColor="#ffffff"
+                android:background="@drawable/main_button"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/iv_imgDialogUpload"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="5"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"/>
+    </LinearLayout>
+
+</FrameLayout>
