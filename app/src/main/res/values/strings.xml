@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Typics</string>
+
+    <string name="takePhoto">Take Photo</string>
+    <string name="choosePhoto">Choose from</string>
+
+    <string name="share">Share</string>
+    <string name="search">Search photo on Internet</string>
+    <string name="hide">Hide your photo here</string>
+    <string name="history">History</string>
+    <string name="openHide">Open hidden files</string>
+
+    <string name="send_to">Share image</string>
+    <string name="crop">Crop</string>
+    <string name="save">Save</string>
+    <string name="save_to_media">Save to Media</string>
+    <string name="merge">Merge</string>
+    <string name="new_history">New</string>
+    <string name="b_and_w">Black and white</string>
+
+    <string-array name="nav">
+        <item>@string/takePhoto</item>
+        <item>@string/choosePhoto</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="return1">Press again to return</string>
+    <string name="hold">Hold image to see before</string>
+    <string name="warning">No history</string>
+    <string name="market">Market</string>
+    <string name="upload">Upload</string>
+
+    <!-- Sign in and Sign up -->
+    <string name="password_hint">Password</string>
+    <string name="email_hint">Email</string>
+    <string name="sign_up_button_label">Sign Up</string>
+    <string name="signup_error_message">Please make sure you enter an email address and password!</string>
+    <string name="signup_error_title">Error!</string>
+    <string name="signup_success">Account successfully created! You can now Login.</string>
+    <string name="login_error_message">Please make sure you enter an email address and password!</string>
+    <string name="login_error_title">Error!</string>
+    <string name="login_button_label">Login</string>
+    <string name="sign_up_text">Sign Up!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout">Logout</string>
+    <string name="Download">download</string>
+    <string name="saved_first_time">SAVE_FIRST_TIME</string>
+    <string name="easy_to_use">Easy to use</string>
+    <string name="full_of_magic">Full of Magic</string>
+    <string name="big_community">Big community to support you</string>
+    <string name="complete">Complete</string>
+    <string name="upload_hint">Enter a title for your photo</string>
+    <string name="upload_omit">(If omitted, the titile will be set to \"Untitiled\")</string>
+    <string name="home">Home</string>
+    <string name="about_us">About us</string>
+    <string name="account">Account</string>
+    <string name="back">Back</string>
+
+    <array name="navigation_drawer">
+        <item>@string/home</item>
+        <item>@string/market</item>
+        <item>@string/account</item>
+        <item>@string/about_us</item>
+    </array>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/spinner_history"
+        android:title="@string/history"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.Spinner"/>
+
+    <item
+        android:id="@+id/save_setting"
+        android:title="@string/save_to_media"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/share_setting"
+        android:title="@string/share"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/search_setting"
+        android:title="@string/search"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/hide_setting"
+        android:title="@string/hide"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/openHidden"
+        android:title="@string/openHide"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/upload_setting"
+        android:title="@string/upload"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/market"
+        android:title="@string/market"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout"
+        app:showAsAction="never"/>
+
+</menu>
