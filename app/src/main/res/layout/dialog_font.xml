@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_marginBottom="10dp"
+        android:padding="12dp"
         android:background="#000">
         <TextView
             android:id="@+id/textFontView"
@@ -24,7 +25,7 @@
     <ScrollView
         android:id="@+id/listViewFont"
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/relativeTextViewFont"
         android:scrollbarSize="1dp">
@@ -52,7 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:text="Cancel"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@color/popUpConfirm"
             android:background="#000"/>
         <Button
             android:id="@+id/btnFontDone"
@@ -60,7 +61,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:text="Done"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@color/popUpConfirm"
             android:background="#000"/>
     </LinearLayout>
 

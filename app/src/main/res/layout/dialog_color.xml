@@ -137,7 +137,7 @@
             android:layout_height="wrap_content"
             android:text="Cancel"
             android:background="#000"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@color/popUpConfirm"
             android:id="@+id/btnColorCancel"
             android:layout_marginRight="10dp"/>
         <Button
@@ -146,7 +146,7 @@
             android:layout_height="wrap_content"
             android:text="Done"
             android:background="#000"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@color/popUpConfirm"
             android:id="@+id/btnColorDone"/>
     </LinearLayout>
 

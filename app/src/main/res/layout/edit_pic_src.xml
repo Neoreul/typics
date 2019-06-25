@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.se2h.typics.MainActivity"
+    tools:context="com.neoress.typics.EditPicActivity"
     android:id="@+id/rl_edit"
     android:background="#212121">
 
@@ -41,26 +41,27 @@
         android:visibility="visible"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="23dp">
-        <Button
-            android:id="@+id/btn_Save"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:text="@string/merge"
-            android:textSize="16sp"
-            android:textColor="@android:color/white"
-            android:background="@drawable/main_button"
-            android:onClick="save"/>
+        android:layout_marginEnd="23dp"
+        android:layout_alignParentRight="true">
+        <!--<Button-->
+            <!--android:id="@+id/btn_Save"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:text="@string/merge"-->
+            <!--android:textSize="16sp"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--style="@style/Widget.AppCompat.Button.Borderless"-->
+            <!--android:onClick="save"/>-->
 
-        <ImageView
-            android:id="@+id/btn_Crop"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:padding="10dp"
-            android:src="@drawable/icon_crop"
-            android:background="@drawable/icon"
-            android:layout_marginLeft="20dp"
-            android:onClick="crop"/>
+        <!--<ImageView-->
+            <!--android:id="@+id/btn_Crop"-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:padding="10dp"-->
+            <!--android:src="@drawable/icon_crop"-->
+            <!--android:background="@drawable/icon"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:onClick="crop"/>-->
 
         <ImageView
             android:id="@+id/btn_AddText"
@@ -72,22 +73,22 @@
             android:layout_marginLeft="20dp"
             android:onClick="addText"/>
 
-        <ImageView
-            android:id="@+id/btn_Magic"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:padding="0dp"
-            android:src="@drawable/icon_magic"
-            android:background="@drawable/circle_icon"
-            android:layout_marginLeft="20dp"
-            android:onClick="magic"/>
+        <!--<ImageView-->
+            <!--android:id="@+id/btn_Magic"-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:padding="0dp"-->
+            <!--android:src="@drawable/icon_magic"-->
+            <!--android:background="@drawable/circle_icon"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:onClick="magic"/>-->
     </LinearLayout>
 
     <ImageView
         android:id="@+id/imgPaint"
 
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
         android:src="@drawable/img_paint"
         android:background="@drawable/circle_icon"
         android:padding="5dp"
@@ -274,7 +275,7 @@
                             android:id="@+id/btnExample"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Example"
+                            android:text="Pattern"
                             android:textColor="#fff"
                             android:background="@drawable/button_hor"
                             android:onClick="chooseExample"/>
